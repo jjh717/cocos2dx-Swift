@@ -6,5 +6,6 @@
 2. build Settings -> Header Search Paths 경로 설정
 3. build Settings -> Other Linker Flags 경로 설정
 4. build Settings -> Enable Bitcode -> NO 설정
+5. build Settings -> Object-C Bridging Header 경로 설정
 
 CocosBridging.mm <-> ViewController.swift 참고하시면 됩니다.
