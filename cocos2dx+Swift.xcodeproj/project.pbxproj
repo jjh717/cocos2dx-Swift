@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58FDC27C246A88DF0008E0B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FDC27B246A88DF0008E0B8 /* AppDelegate.swift */; };
+		58FDC280246A88DF0008E0B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FDC27F246A88DF0008E0B8 /* ViewController.swift */; };
+		58FDC283246A88DF0008E0B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FDC281246A88DF0008E0B8 /* Main.storyboard */; };
+		58FDC285246A88E10008E0B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FDC284246A88E10008E0B8 /* Assets.xcassets */; };
+		58FDC288246A88E10008E0B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FDC286246A88E10008E0B8 /* LaunchScreen.storyboard */; };
+		58FDC6C8246A8A2D0008E0B8 /* OpenItemScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58FDC295246A8A2A0008E0B8 /* OpenItemScene.cpp */; };
+		58FDC6C9246A8A2D0008E0B8 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58FDC296246A8A2A0008E0B8 /* HelloWorldScene.cpp */; };
+		58FDC6CA246A8A2D0008E0B8 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58FDC297246A8A2A0008E0B8 /* AppDelegate.cpp */; };
+		58FDC7A3246A8A2E0008E0B8 /* libext_md5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FDC379246A8A2B0008E0B8 /* libext_md5.a */; };
+		58FDC7A4246A8A2E0008E0B8 /* libext_convertUTF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FDC37A246A8A2B0008E0B8 /* libext_convertUTF.a */; };
+		58FDC7A5246A8A2E0008E0B8 /* libext_edtaa3func.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FDC37B246A8A2B0008E0B8 /* libext_edtaa3func.a */; };
+		58FDC7A6246A8A2E0008E0B8 /* libext_xxtea.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FDC37C246A8A2B0008E0B8 /* libext_xxtea.a */; };
+		58FDC7A7246A8A2E0008E0B8 /* libext_clipper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FDC37D246A8A2B0008E0B8 /* libext_clipper.a */; };
+		58FDC7A8246A8A2E0008E0B8 /* libexternal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FDC37E246A8A2B0008E0B8 /* libexternal.a */; };
+		58FDC7A9246A8A2E0008E0B8 /* libext_recast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FDC37F246A8A2B0008E0B8 /* libext_recast.a */; };
+		58FDC7AA246A8A2E0008E0B8 /* libext_unzip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FDC380246A8A2B0008E0B8 /* libext_unzip.a */; };
+		58FDC7AC246A8A2E0008E0B8 /* libext_poly2tri.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FDC382246A8A2B0008E0B8 /* libext_poly2tri.a */; };
+		58FDC7AD246A8A2E0008E0B8 /* libext_tinyxml2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FDC383246A8A2B0008E0B8 /* libext_tinyxml2.a */; };
+		58FDC7AE246A8A2E0008E0B8 /* libext_xxhash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FDC384246A8A2B0008E0B8 /* libext_xxhash.a */; };
+		58FDC7AF246A8A2E0008E0B8 /* CocosBridging.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58FDC385246A8A2B0008E0B8 /* CocosBridging.mm */; };
+		58FDC9D0246A8AED0008E0B8 /* Img in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58FDC9CD246A8AED0008E0B8 /* Img */; };
+		58FDC9D2246A8AED0008E0B8 /* fonts in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58FDC9CF246A8AED0008E0B8 /* fonts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58FDC9B4246A8AD80008E0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9335CFEC440A4872BAC56BD1;
+			remoteInfo = cocos2d;
+		};
+		58FDC9B6246A8AD80008E0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6805161B2F5B439BA146CC47;
+			remoteInfo = ext_clipper;
+		};
+		58FDC9B8246A8AD80008E0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FF7109B65E06471689844E08;
+			remoteInfo = ext_convertUTF;
+		};
+		58FDC9BA246A8AD80008E0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0445971049E24329AA694483;
+			remoteInfo = ext_edtaa3func;
+		};
+		58FDC9BC246A8AD80008E0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F62FFA81E33B41E6914DC82A;
+			remoteInfo = ext_md5;
+		};
+		58FDC9BE246A8AD80008E0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02E26C7004C94FE585C02302;
+			remoteInfo = ext_poly2tri;
+		};
+		58FDC9C0246A8AD80008E0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB934E859595432AB006F0BC;
+			remoteInfo = ext_recast;
+		};
+		58FDC9C2246A8AD80008E0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AAB18B547FD64E01946D0677;
+			remoteInfo = ext_tinyxml2;
+		};
+		58FDC9C4246A8AD80008E0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A09D20A0F7D4A3A997C2673;
+			remoteInfo = ext_unzip;
+		};
+		58FDC9C6246A8AD80008E0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E0D9D90E95D34709BC2BF505;
+			remoteInfo = ext_xxhash;
+		};
+		58FDC9C8246A8AD80008E0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8D3DA45929747CAA6503B72;
+			remoteInfo = ext_xxtea;
+		};
+		58FDC9CA246A8AD80008E0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BA9185038C24C4FBEAF2068;
+			remoteInfo = external;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58FDC9CC246A8AE40008E0B8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				58FDC9D0246A8AED0008E0B8 /* Img in CopyFiles */,
+				58FDC9D2246A8AED0008E0B8 /* fonts in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		58FDC278246A88DF0008E0B8 /* cocos2dx+Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cocos2dx+Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FDC27B246A88DF0008E0B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58FDC27F246A88DF0008E0B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58FDC282246A88DF0008E0B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58FDC284246A88E10008E0B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58FDC287246A88E10008E0B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58FDC289246A88E10008E0B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58FDC292246A8A2A0008E0B8 /* OpenItemScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenItemScene.h; sourceTree = "<group>"; };
+		58FDC293246A8A2A0008E0B8 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
+		58FDC294246A8A2A0008E0B8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58FDC295246A8A2A0008E0B8 /* OpenItemScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenItemScene.cpp; sourceTree = "<group>"; };
+		58FDC296246A8A2A0008E0B8 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
+		58FDC297246A8A2A0008E0B8 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+		58FDC298246A8A2A0008E0B8 /* CocosBridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosBridging.h; sourceTree = "<group>"; };
+		58FDC376246A8A2B0008E0B8 /* PhotoBox-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PhotoBox-Bridging-Header.h"; sourceTree = "<group>"; };
+		58FDC379246A8A2B0008E0B8 /* libext_md5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libext_md5.a; sourceTree = "<group>"; };
+		58FDC37A246A8A2B0008E0B8 /* libext_convertUTF.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libext_convertUTF.a; sourceTree = "<group>"; };
+		58FDC37B246A8A2B0008E0B8 /* libext_edtaa3func.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libext_edtaa3func.a; sourceTree = "<group>"; };
+		58FDC37C246A8A2B0008E0B8 /* libext_xxtea.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libext_xxtea.a; sourceTree = "<group>"; };
+		58FDC37D246A8A2B0008E0B8 /* libext_clipper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libext_clipper.a; sourceTree = "<group>"; };
+		58FDC37E246A8A2B0008E0B8 /* libexternal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexternal.a; sourceTree = "<group>"; };
+		58FDC37F246A8A2B0008E0B8 /* libext_recast.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libext_recast.a; sourceTree = "<group>"; };
+		58FDC380246A8A2B0008E0B8 /* libext_unzip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libext_unzip.a; sourceTree = "<group>"; };
+		58FDC382246A8A2B0008E0B8 /* libext_poly2tri.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libext_poly2tri.a; sourceTree = "<group>"; };
+		58FDC383246A8A2B0008E0B8 /* libext_tinyxml2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = "<group>"; };
+		58FDC384246A8A2B0008E0B8 /* libext_xxhash.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libext_xxhash.a; sourceTree = "<group>"; };
+		58FDC385246A8A2B0008E0B8 /* CocosBridging.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CocosBridging.mm; sourceTree = "<group>"; };
+		58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = engine/cocos/core/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
+		58FDC9CD246A8AED0008E0B8 /* Img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Img; sourceTree = "<group>"; };
+		58FDC9CF246A8AED0008E0B8 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58FDC275246A88DF0008E0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FDC7A8246A8A2E0008E0B8 /* libexternal.a in Frameworks */,
+				58FDC7A3246A8A2E0008E0B8 /* libext_md5.a in Frameworks */,
+				58FDC7AC246A8A2E0008E0B8 /* libext_poly2tri.a in Frameworks */,
+				58FDC7AA246A8A2E0008E0B8 /* libext_unzip.a in Frameworks */,
+				58FDC7A9246A8A2E0008E0B8 /* libext_recast.a in Frameworks */,
+				58FDC7AE246A8A2E0008E0B8 /* libext_xxhash.a in Frameworks */,
+				58FDC7A4246A8A2E0008E0B8 /* libext_convertUTF.a in Frameworks */,
+				58FDC7A6246A8A2E0008E0B8 /* libext_xxtea.a in Frameworks */,
+				58FDC7AD246A8A2E0008E0B8 /* libext_tinyxml2.a in Frameworks */,
+				58FDC7A5246A8A2E0008E0B8 /* libext_edtaa3func.a in Frameworks */,
+				58FDC7A7246A8A2E0008E0B8 /* libext_clipper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58FDC26F246A88DF0008E0B8 = {
+			isa = PBXGroup;
+			children = (
+				58FDC27A246A88DF0008E0B8 /* cocos2dx+Swift */,
+				58FDC279246A88DF0008E0B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58FDC279246A88DF0008E0B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58FDC278246A88DF0008E0B8 /* cocos2dx+Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58FDC27A246A88DF0008E0B8 /* cocos2dx+Swift */ = {
+			isa = PBXGroup;
+			children = (
+				58FDC290246A8A2A0008E0B8 /* cocos2dx */,
+				58FDC27B246A88DF0008E0B8 /* AppDelegate.swift */,
+				58FDC27F246A88DF0008E0B8 /* ViewController.swift */,
+				58FDC281246A88DF0008E0B8 /* Main.storyboard */,
+				58FDC284246A88E10008E0B8 /* Assets.xcassets */,
+				58FDC286246A88E10008E0B8 /* LaunchScreen.storyboard */,
+				58FDC289246A88E10008E0B8 /* Info.plist */,
+			);
+			path = "cocos2dx+Swift";
+			sourceTree = "<group>";
+		};
+		58FDC290246A8A2A0008E0B8 /* cocos2dx */ = {
+			isa = PBXGroup;
+			children = (
+				58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */,
+				58FDC291246A8A2A0008E0B8 /* Classes */,
+				58FDC299246A8A2A0008E0B8 /* Resources */,
+				58FDC377246A8A2B0008E0B8 /* lib */,
+				58FDC298246A8A2A0008E0B8 /* CocosBridging.h */,
+				58FDC385246A8A2B0008E0B8 /* CocosBridging.mm */,
+				58FDC376246A8A2B0008E0B8 /* PhotoBox-Bridging-Header.h */,
+			);
+			path = cocos2dx;
+			sourceTree = "<group>";
+		};
+		58FDC291246A8A2A0008E0B8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				58FDC292246A8A2A0008E0B8 /* OpenItemScene.h */,
+				58FDC293246A8A2A0008E0B8 /* HelloWorldScene.h */,
+				58FDC294246A8A2A0008E0B8 /* AppDelegate.h */,
+				58FDC295246A8A2A0008E0B8 /* OpenItemScene.cpp */,
+				58FDC296246A8A2A0008E0B8 /* HelloWorldScene.cpp */,
+				58FDC297246A8A2A0008E0B8 /* AppDelegate.cpp */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		58FDC299246A8A2A0008E0B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				58FDC9CF246A8AED0008E0B8 /* fonts */,
+				58FDC9CD246A8AED0008E0B8 /* Img */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		58FDC377246A8A2B0008E0B8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				58FDC378246A8A2B0008E0B8 /* Debug */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		58FDC378246A8A2B0008E0B8 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				58FDC379246A8A2B0008E0B8 /* libext_md5.a */,
+				58FDC37A246A8A2B0008E0B8 /* libext_convertUTF.a */,
+				58FDC37B246A8A2B0008E0B8 /* libext_edtaa3func.a */,
+				58FDC37C246A8A2B0008E0B8 /* libext_xxtea.a */,
+				58FDC37D246A8A2B0008E0B8 /* libext_clipper.a */,
+				58FDC37E246A8A2B0008E0B8 /* libexternal.a */,
+				58FDC37F246A8A2B0008E0B8 /* libext_recast.a */,
+				58FDC380246A8A2B0008E0B8 /* libext_unzip.a */,
+				58FDC382246A8A2B0008E0B8 /* libext_poly2tri.a */,
+				58FDC383246A8A2B0008E0B8 /* libext_tinyxml2.a */,
+				58FDC384246A8A2B0008E0B8 /* libext_xxhash.a */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		58FDC9A6246A8AD80008E0B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58FDC9B5246A8AD80008E0B8 /* libcocos2d.a */,
+				58FDC9B7246A8AD80008E0B8 /* libext_clipper.a */,
+				58FDC9B9246A8AD80008E0B8 /* libext_convertUTF.a */,
+				58FDC9BB246A8AD80008E0B8 /* libext_edtaa3func.a */,
+				58FDC9BD246A8AD80008E0B8 /* libext_md5.a */,
+				58FDC9BF246A8AD80008E0B8 /* libext_poly2tri.a */,
+				58FDC9C1246A8AD80008E0B8 /* libext_recast.a */,
+				58FDC9C3246A8AD80008E0B8 /* libext_tinyxml2.a */,
+				58FDC9C5246A8AD80008E0B8 /* libext_unzip.a */,
+				58FDC9C7246A8AD80008E0B8 /* libext_xxhash.a */,
+				58FDC9C9246A8AD80008E0B8 /* libext_xxtea.a */,
+				58FDC9CB246A8AD80008E0B8 /* libexternal.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58FDC277246A88DF0008E0B8 /* cocos2dx+Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FDC28C246A88E10008E0B8 /* Build configuration list for PBXNativeTarget "cocos2dx+Swift" */;
+			buildPhases = (
+				58FDC274246A88DF0008E0B8 /* Sources */,
+				58FDC275246A88DF0008E0B8 /* Frameworks */,
+				58FDC276246A88DF0008E0B8 /* Resources */,
+				58FDC9CC246A8AE40008E0B8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cocos2dx+Swift";
+			productName = "cocos2dx+Swift";
+			productReference = 58FDC278246A88DF0008E0B8 /* cocos2dx+Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58FDC270246A88DF0008E0B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Jang Dong Min";
+				TargetAttributes = {
+					58FDC277246A88DF0008E0B8 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 58FDC273246A88DF0008E0B8 /* Build configuration list for PBXProject "cocos2dx+Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58FDC26F246A88DF0008E0B8;
+			productRefGroup = 58FDC279246A88DF0008E0B8 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 58FDC9A6246A8AD80008E0B8 /* Products */;
+					ProjectRef = 58FDC9A5246A8AD80008E0B8 /* cocos2d_libs.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				58FDC277246A88DF0008E0B8 /* cocos2dx+Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		58FDC9B5246A8AD80008E0B8 /* libcocos2d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcocos2d.a;
+			remoteRef = 58FDC9B4246A8AD80008E0B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58FDC9B7246A8AD80008E0B8 /* libext_clipper.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_clipper.a;
+			remoteRef = 58FDC9B6246A8AD80008E0B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58FDC9B9246A8AD80008E0B8 /* libext_convertUTF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_convertUTF.a;
+			remoteRef = 58FDC9B8246A8AD80008E0B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58FDC9BB246A8AD80008E0B8 /* libext_edtaa3func.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_edtaa3func.a;
+			remoteRef = 58FDC9BA246A8AD80008E0B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58FDC9BD246A8AD80008E0B8 /* libext_md5.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_md5.a;
+			remoteRef = 58FDC9BC246A8AD80008E0B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58FDC9BF246A8AD80008E0B8 /* libext_poly2tri.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_poly2tri.a;
+			remoteRef = 58FDC9BE246A8AD80008E0B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58FDC9C1246A8AD80008E0B8 /* libext_recast.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_recast.a;
+			remoteRef = 58FDC9C0246A8AD80008E0B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58FDC9C3246A8AD80008E0B8 /* libext_tinyxml2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_tinyxml2.a;
+			remoteRef = 58FDC9C2246A8AD80008E0B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58FDC9C5246A8AD80008E0B8 /* libext_unzip.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_unzip.a;
+			remoteRef = 58FDC9C4246A8AD80008E0B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58FDC9C7246A8AD80008E0B8 /* libext_xxhash.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_xxhash.a;
+			remoteRef = 58FDC9C6246A8AD80008E0B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58FDC9C9246A8AD80008E0B8 /* libext_xxtea.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_xxtea.a;
+			remoteRef = 58FDC9C8246A8AD80008E0B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58FDC9CB246A8AD80008E0B8 /* libexternal.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libexternal.a;
+			remoteRef = 58FDC9CA246A8AD80008E0B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58FDC276246A88DF0008E0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FDC288246A88E10008E0B8 /* LaunchScreen.storyboard in Resources */,
+				58FDC285246A88E10008E0B8 /* Assets.xcassets in Resources */,
+				58FDC283246A88DF0008E0B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58FDC274246A88DF0008E0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FDC6C8246A8A2D0008E0B8 /* OpenItemScene.cpp in Sources */,
+				58FDC280246A88DF0008E0B8 /* ViewController.swift in Sources */,
+				58FDC6CA246A8A2D0008E0B8 /* AppDelegate.cpp in Sources */,
+				58FDC6C9246A8A2D0008E0B8 /* HelloWorldScene.cpp in Sources */,
+				58FDC27C246A88DF0008E0B8 /* AppDelegate.swift in Sources */,
+				58FDC7AF246A8A2E0008E0B8 /* CocosBridging.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58FDC281246A88DF0008E0B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58FDC282246A88DF0008E0B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58FDC286246A88E10008E0B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58FDC287246A88E10008E0B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58FDC28A246A88E10008E0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58FDC28B246A88E10008E0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58FDC28D246A88E10008E0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88Z4VX6L8N;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/cocos\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2dx/Classes\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/cocos/audio/include\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/extensions\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/cocos/platform\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/cocos/editor-support\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/cocos/base\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/cocos/platform/ios\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/recast/..\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/tinyxml2/.\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/xxhash/.\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/xxtea/.\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/clipper/.\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/edtaa3func/.\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/ConvertUTF/.\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/poly2tri/..\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/md5/..\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/unzip/.\"",
+				);
+				INFOPLIST_FILE = "cocos2dx+Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cocos2dx+Swift/cocos2dx/lib/Debug",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-headerpad_max_install_names",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libcocos2d.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libexternal.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/Box2D/prebuilt/ios/libbox2d.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/chipmunk/prebuilt/ios/libchipmunk.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/freetype2/prebuilt/ios/libfreetype.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_recast.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/bullet/prebuilt/ios/libLinearMath.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/bullet/prebuilt/ios/libBulletDynamics.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/bullet/prebuilt/ios/libBulletCollision.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/bullet/prebuilt/ios/libLinearMath.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/bullet/prebuilt/ios/libBulletMultiThreaded.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/bullet/prebuilt/ios/libMiniCL.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/jpeg/prebuilt/ios/libjpeg.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/webp/prebuilt/ios/libwebp.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/websockets/prebuilt/ios/libwebsockets.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/openssl/prebuilt/ios/libssl.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/openssl/prebuilt/ios/libcrypto.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/uv/prebuilt/ios/libuv_a.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_tinyxml2.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_xxhash.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_xxtea.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_clipper.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_edtaa3func.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_convertUTF.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_poly2tri.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_md5.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/curl/prebuilt/ios/libcurl.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/png/prebuilt/ios/libpng.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_unzip.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/glsl-optimizer/prebuilt/ios/libglcpp-library.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/glsl-optimizer/prebuilt/ios/libglsl_optimizer.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/glsl-optimizer/prebuilt/ios/libmesa.a",
+					"-framework",
+					UIKit,
+					"-framework",
+					OpenGLES,
+					"-framework",
+					CoreMotion,
+					"-framework",
+					AVKit,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreText,
+					"-framework",
+					Security,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					WebKit,
+					"-framework",
+					OpenAL,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Foundation,
+					"-framework",
+					GameController,
+					"-framework",
+					Metal,
+					/usr/lib/libz.dylib,
+					/usr/lib/libiconv.dylib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jdm.cocos2dx-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cocos2dx+Swift/cocos2dx/PhotoBox-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58FDC28E246A88E10008E0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88Z4VX6L8N;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/cocos\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2dx/Classes\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/cocos/audio/include\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/extensions\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/cocos/platform\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/cocos/editor-support\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/cocos/base\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/cocos/platform/ios\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/recast/..\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/tinyxml2/.\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/xxhash/.\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/xxtea/.\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/clipper/.\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/edtaa3func/.\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/ConvertUTF/.\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/poly2tri/..\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/md5/..\"",
+					"\"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/unzip/.\"",
+				);
+				INFOPLIST_FILE = "cocos2dx+Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cocos2dx+Swift/cocos2dx/lib/Debug",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-headerpad_max_install_names",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libcocos2d.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libexternal.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/Box2D/prebuilt/ios/libbox2d.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/chipmunk/prebuilt/ios/libchipmunk.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/freetype2/prebuilt/ios/libfreetype.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_recast.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/bullet/prebuilt/ios/libLinearMath.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/bullet/prebuilt/ios/libBulletDynamics.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/bullet/prebuilt/ios/libBulletCollision.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/bullet/prebuilt/ios/libLinearMath.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/bullet/prebuilt/ios/libBulletMultiThreaded.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/bullet/prebuilt/ios/libMiniCL.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/jpeg/prebuilt/ios/libjpeg.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/webp/prebuilt/ios/libwebp.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/websockets/prebuilt/ios/libwebsockets.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/openssl/prebuilt/ios/libssl.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/openssl/prebuilt/ios/libcrypto.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/uv/prebuilt/ios/libuv_a.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_tinyxml2.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_xxhash.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_xxtea.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_clipper.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_edtaa3func.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_convertUTF.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_poly2tri.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_md5.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/curl/prebuilt/ios/libcurl.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/png/prebuilt/ios/libpng.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2dx/lib/Debug/libext_unzip.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/glsl-optimizer/prebuilt/ios/libglcpp-library.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/glsl-optimizer/prebuilt/ios/libglsl_optimizer.a",
+					"$(SRCROOT)/cocos2dx+Swift/cocos2d/external/glsl-optimizer/prebuilt/ios/libmesa.a",
+					"-framework",
+					UIKit,
+					"-framework",
+					OpenGLES,
+					"-framework",
+					CoreMotion,
+					"-framework",
+					AVKit,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreText,
+					"-framework",
+					Security,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					WebKit,
+					"-framework",
+					OpenAL,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Foundation,
+					"-framework",
+					GameController,
+					"-framework",
+					Metal,
+					/usr/lib/libz.dylib,
+					/usr/lib/libiconv.dylib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jdm.cocos2dx-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cocos2dx+Swift/cocos2dx/PhotoBox-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58FDC273246A88DF0008E0B8 /* Build configuration list for PBXProject "cocos2dx+Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FDC28A246A88E10008E0B8 /* Debug */,
+				58FDC28B246A88E10008E0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58FDC28C246A88E10008E0B8 /* Build configuration list for PBXNativeTarget "cocos2dx+Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FDC28D246A88E10008E0B8 /* Debug */,
+				58FDC28E246A88E10008E0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58FDC270246A88DF0008E0B8 /* Project object */;
+}
