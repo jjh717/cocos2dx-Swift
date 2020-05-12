@@ -7,4 +7,4 @@
 3. build Settings -> Other Linker Flags 경로 설정
 4. build Settings -> Enable Bitcode -> NO 설정
 
-CocosBridging.mm 참고하시면 됩니다.
+CocosBridging.mm <-> ViewController 참고하시면 됩니다.
